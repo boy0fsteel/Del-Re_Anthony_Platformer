@@ -1,0 +1,63 @@
+
+.background     { background-image: url("http://40.media.tumblr.com/600534730ac2aad78edf2e888daf9f44/tumblr_navphgXJpV1tvub8wo2_500.png");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: orange; }
+.wall          { background: black;   }
+
+.actor  { position: absolute;  }
+.coin   { background: green; 
+    div 
+    width:  10px;
+    height: 10px;
+    border-radius: 20%;
+    background-color: white;
+    box-shadow:
+        0 0 5px  5px #fff,  
+        0 0 20px 5px #f0f, 
+        0 0 40px 20px #0ff;
+
+}
+.player { background-image: url("http://s24.postimg.org/ulrugzrap/sloth4.png");
+	div
+	width: 35px;
+	height: 40px;
+} 
+.enemy  { background-image: url("http://s1.postimg.org/odx2wc8bv/spikeghost.png"); 
+    div 
+    width: 60px;
+    height: 40px;
+   
+   
+}
+
+.boss  { background-image: url("http://s23.postimg.org/j5o1sqag7/ghost.png");
+    div 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow:
+        0 0 20px 10px black,  
+        0 0 60px 20px black, 
+        0 0 100px 50px red; 
+
+
+}
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+	background-color: white;
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
